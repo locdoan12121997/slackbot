@@ -1,4 +1,7 @@
-API_TOKEN = "xoxb-243402108406-LIzxxrpI5ftpgQTUJSmX12I0"
+import os
+
+
+API_TOKEN = os.environ.get('COUPON_BOT_SLACK_NAME')
 DEFAULT_REPLY = "Sorry but I didn't understand you"
 ERRORS_TO = 'loc'
 
